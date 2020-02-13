@@ -31,9 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+
+/* ol, ul {
 	list-style: none;
-}
+} */
+
 blockquote, q {
 	quotes: none;
 }
@@ -124,7 +126,7 @@ section.overview{
 	padding: 30px 0 0 0;
 }
 
-img.middle-img{
+img.middle-img, .services-header-img{
 	width:100%;
 	margin: 30px 0;
 }
@@ -161,4 +163,82 @@ span.phone-email{
 	text-align: center;
 	padding: 15px;
 	margin: 0 0 100px 0;
+}
+
+
+
+/* CSS for Services page */
+
+.container{
+	max-width: 1000px;
+}
+
+.services{
+	margin: 0 0 30px 0;
+}
+
+.services h1{
+	font-size: 2rem;
+}
+
+.service-blocks{
+	display:flex;
+	width: 100%;
+	height: ;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.service{
+	width: 49%;
+	background-color:#e0e0d1;
+	border: 1px solid black;
+	margin: 1% 0;
+}
+
+.service h2{
+	margin: 20px;
+}
+.service p{
+	width:95%;
+	margin: 20px;
+}
+
+.service button{
+	border-radius: 5%;
+	font-size: .6rem;
+}
+
+.facts{
+	display:flex;
+	width:100%;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+.fact-words h2{
+	margin:0;
+}
+ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style-position: inside;
+	margin: 0 0 30px 0;
+}
+
+.facts div{
+	width: 49%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+div.fact-image{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.copyright2{
+	text-align: center;
+	margin: 75px 0 20px 0;
 }
